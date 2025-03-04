@@ -1,0 +1,40 @@
+/* Add your custom styles here */
+
+/* Team member hover effects */
+.team-member-card {
+  transition: all 0.3s ease;
+}
+
+.team-member-card:hover {
+  transform: translateY(-10px);
+}
+
+.team-member-image {
+  transition: all 0.5s ease;
+}
+
+.team-member-card:hover .team-member-image {
+  transform: scale(1.05);
+}
+
+.social-links {
+  transition: all 0.3s ease;
+}
+
+.team-member-card:hover .social-links {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Header styles */
+.header-container {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.header-title {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.logo-img {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
